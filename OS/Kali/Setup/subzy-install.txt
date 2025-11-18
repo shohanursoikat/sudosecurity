@@ -1,0 +1,4 @@
+GO111MODULE=on go install -v github.com/PentestPad/subzy@latest
+ls -l "$HOME/go/bin/subzy"
+sudo mv "$HOME/go/bin/subzy" /usr/local/bin/subzy
+sudo chmod +x /usr/local/bin/subzy

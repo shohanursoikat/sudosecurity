@@ -1,0 +1,3 @@
+bcdedit /Enum //show bcd entries.
+deiverquery /v //see loaded drivers and start types.
+eventvwr //windows logs 

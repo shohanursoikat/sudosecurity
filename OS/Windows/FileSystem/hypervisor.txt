@@ -1,0 +1,13 @@
+#turn off Hyper-V
+bcdedit /set hypervisorlaunchtype off
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+dism.exe /Online /Disable-Feature:VirtualMachinePlatform
+dism.exe /Online /Disable-Feature:WindowsHypervisorPlatform
+dism.exe /Online /Disable-Feature:Containers
+
+#turn on Hyper-V
+dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
+dism.exe /Online /Enable-Feature:VirtualMachinePlatform /All
+dism.exe /Online /Enable-Feature:WindowsHypervisorPlatform /All
+dism.exe /Online /Enable-Feature:Containers /All
+bcdedit /set hypervisorlaunchtype auto

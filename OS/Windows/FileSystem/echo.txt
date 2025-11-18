@@ -1,0 +1,9 @@
+echo %path% //see env
+echo %appdata% //see appdata location
+echo %localappdata% //see local appdata location
+echo %systemroot% //see systemroot location
+echo %homedrive% //see homedrive
+echo %username% //see username
+echo %number_of_processors% //logical processors.
+
+echo. >os\windows\filesystem\.gitkeep //github keeps empty files

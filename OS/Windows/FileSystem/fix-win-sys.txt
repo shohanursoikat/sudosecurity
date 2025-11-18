@@ -1,0 +1,17 @@
+sfc /scannow
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /verifyonly
+DISM /Online /Cleanup-Image /StartComponentCleanup
+
+cleanmgr /verylowdisk
+powercfg -h off
+SystemPropertiesProtection.exe
+del /s /q %windir%\SoftwareDistribution\
+net start wuauserv
+del /s /q %temp%\*
+del /s /q C:\Windows\Temp\*
+
+powercfg -restoredefaultschemes //restore default power plans.
+powercfg /batteryreport /output "C:\battery_report.html"

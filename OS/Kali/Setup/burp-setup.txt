@@ -1,0 +1,4 @@
+#download cert from burp suite and save on the desktop folder. then copy to ca-certificate.
+sudo cp /home/sudo_security/Desktop/cert.der /usr/local/share/ca-certificates/burp_ca.crt
+
+sudo apdate-ca-certificates

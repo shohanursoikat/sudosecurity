@@ -1,0 +1,7 @@
+wmic cpu get NumberOfCores,NumberOfLogicalProcessors
+wmic cpu get name 
+wmic bios get smbiosbiosversion
+wmic os get caption,version
+wmic os diskdrive get model,size
+wmic nic get name,speed,macaddress
+wmic os get osarchitecture

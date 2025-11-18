@@ -1,0 +1,6 @@
+ipconfig /release 
+ipconfig /renew #get a new ip.
+ipconfig /flushdns #delete dns cache.
+arp -d *  #clears outdated mac-toip mappings.
+
+ipconfig /all

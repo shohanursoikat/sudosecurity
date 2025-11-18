@@ -1,0 +1,13 @@
+powercfg /batteryreport  //generates battery report.
+powercfg /systempowerreport  //generates system power transition report.
+powercfg /sleepstudy 
+
+powercfg /a //shows current sleep states.
+
+powercfg /h on
+powercfg /h off
+powercfg /h /type full //set hibernation file maximum size.
+powercfg /h /type reduced //set hibernation file minimum size.
+powercfg /h /size 40 //40% of the ram.
+
+dir /a c:\hiberfil.sys  //see the reserved space for hibernation.

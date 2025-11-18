@@ -1,0 +1,20 @@
+
+mount-diskimage -imagepath "e:\VirtualBox\windows\Win11_25H2_English_x64.iso" //mount the iso.
+get-diskimage -imagepath "e:\VirtualBox\windows\Win11_25H2_English_x64.iso" //get details
+
+diskpart //enter to disk partition.
+list disk //list the disks.
+select disk 1        <-- make sure 1 is your 128GB USB
+clean //clean the usb drive.
+convert gpt
+create partition primary //creates partition.
+list partition 
+select partition 1 //select the partition.
+assign letter=W
+exit
+
+dism /apply-image /imagefile:f:\sources\install.wim /index:1 /applydir:W:\   //unzip the os from install.wim and dumps it onto W:
+
+bcdboot w:\Windows /s w: /f all  //create boot files.
+
+

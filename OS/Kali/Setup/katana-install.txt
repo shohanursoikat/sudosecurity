@@ -1,0 +1,1 @@
+GO111MODULE=on go install github.com/projectdiscovery/katana/cmd/katana@latest

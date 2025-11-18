@@ -1,0 +1,2 @@
+setx JAVA_HOME "C:\Users\hp\Downloads\jdk-21"
+setx PATH "%PATH%;%JAVA_HOME%\bin"

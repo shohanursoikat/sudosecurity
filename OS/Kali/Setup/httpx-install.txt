@@ -1,0 +1,7 @@
+GO111MODULE=on go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+sudo mv "$HOME/go/bin/httpx" /usr/local/bin/httpx
+sudo chmod +x /usr/local/bin/httpx #make it systemwide.
+done.
+httpx -l subdomains.txt -threads 200 -status-code -o results.txt
+subfinder -dL domains.txt -silent | httpx -o live.txt
+

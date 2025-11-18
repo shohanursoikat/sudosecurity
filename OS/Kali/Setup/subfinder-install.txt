@@ -1,0 +1,8 @@
+GO111MODULE=on go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+#install latest subfinder.
+ls -l "$HOME/go/bin/subfinder" #verify subfinder exists.
+sudo mv "$HOME/go/bin/subfinder" /usr/local/bin/subfinder #make subfinder systemwide.
+sudo chmod +x /usr/local/bin/subfinder
+command -v subfinder
+
+

