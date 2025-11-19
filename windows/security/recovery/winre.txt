@@ -1,0 +1,3 @@
+reagentc /info  //check win recovery status.
+reagentc /enable //enable recovery features.
+reagentc /disable //disable win recovery features.

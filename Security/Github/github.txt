@@ -1,5 +1,0 @@
-git clone https://github.con/shohanursoikat/SudoSecurity
-echo. >Network.gitkeep //.gitkeep keeps empty files.
-git add . //add all files to git.
-git commit -m "Initial folder structure with organized directories"
-git push -u origin main //push to git.

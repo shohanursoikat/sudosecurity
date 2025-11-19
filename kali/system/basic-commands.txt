@@ -1,0 +1,4 @@
+ls #list files.
+ls-al #list with hidden files.
+ls-la #same function as al.
+mkdir dir //create a directory.

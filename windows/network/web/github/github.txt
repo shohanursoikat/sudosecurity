@@ -1,0 +1,10 @@
+git clone https://github.con/shohanursoikat/SudoSecurity
+echo. >Network.gitkeep //.gitkeep keeps empty files.
+git add . //add all files to git.
+git commit -m "Initial folder structure with organized directories" //m for message.
+git push -u origin main //push to git. For first push use -u (upstream).
+git push //from second push...
+git pull //get the update to the local git folder.
+git log //see log.
+git status //see commit status.
+git ls-files //see file list.
