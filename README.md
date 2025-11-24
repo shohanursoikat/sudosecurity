@@ -1,5 +1,5 @@
 # SudoSecurity
-What's up boys? I am Shohanur; the guy behind Sudo Security. In this project you will find the overview of my CSE & Cyber Security journey. I made this project to store all that I have got in that journey. This repo is updating continously as I am learning new things. I like to share my knowledge with the interested one. All Hackers are not a bad guy.
+What's up boys? I am Shohanur; the guy behind Sudo Security. In this project you will find the overview of my CSE & Cyber Security journey. I made this project to collect &  store all that I have got in that journey. This repo is updating continously as I am learning new things. I like to share my knowledge with the interested one. All Hackers are not a bad guy.
 
 ##  Contents:
 SudoSecurity is my long-term digital vault for:
@@ -14,96 +14,44 @@ This repo will keep growing over the years. Creation date: 18/11/25.
 ## 📂 Repository Structure
 ```
 SudoSecurity/
-├─ Assets/
-│  ├─ Images/
-│  ├─ PDFs/
-│  └─ Docs/
-│
-├─ Windows/
-│  ├─ Commands/
-│  ├─ Security/
-│  └─ PowerShell/
-│
-├─ Linux/
-│  ├─ Commands/
-│  ├─ FileSystem/
-│  ├─ BashScripts/
-│  └─ Kali/
-│
-├─ Networking/
-│  ├─ Tools/
-│  ├─ Protocols/
-│  └─ Diagrams/
-│
-├─ EthicalHacking/
-│  ├─ Recon/
-│  ├─ Exploitation/
-│  └─ Reporting/
-│
-├─ Projects/
-│  ├─ OS/
-│  ├─ Networking/
-│  ├─ SecurityTools/
-│  └─ Automation/
-│
-└─ README.md
-```
+├───Assets
+│   ├───Images
+│   ├───Others
+│   └───pdfs
+├───bug-bounty
+│   ├───commands
+│   └───tools
+│       └───keylog
+├───kali
+│   ├───network
+│   ├───security
+│   ├───setup
+│   └───system
+└───windows
+    ├───automation
+    ├───network
+    │   ├───commands
+    │   └───web
+    │       └───github
+    ├───scripts
+    ├───security
+    │   └───recovery
+    └───system
 
----
-
-## 🏆 Purpose
-This repo exists for 3 long-term goals:
-1. **Keep your entire cybersecurity knowledge in one place**
-2. **Build a strong portfolio for job interviews**
-3. **Create a long-term proof of passion for scholarships & study abroad**
-
----
-
-## 🛠️ Features
-- Organized and scalable folder system
-- Professional documentation and guides
-- Space for commands, scripts, cheat sheets
-- Assets for PDFs, images, diagrams
-- Future-proof structure for growth
-
----
-
-## 📘 Guides Included
-- Windows command references
-- Linux/Kali penetration testing notes
-- Networking fundamentals
-- Ethical hacking workflow breakdowns
-- OS & filesystem experiments
-- Scripting & automation tools
-
----
-
-## 🔧 Coming Soon
+##Coming Soon
 - Personal security tools
 - C, Python & Bash utilities
 - Network monitoring scripts
-- OS mini-projects
+- OS projects
 - Hacking lab documentation
 - PDF cheat sheets for every topic
 
----
-
-## ⭐ Professional Highlights
+##Professional Highlights
 This repo is built to:
 - Show long-term consistency
 - Demonstrate technical depth
 - Strengthen your digital portfolio
 - Impress recruiters & scholarship reviewers
 
-Your commit history itself becomes proof of growth.
-
----
-
-## 📫 Contact
-**Author:** Shohanur Rahman Soikat  
-**Focus:** Cybersecurity, Networking, OS Internals, Ethical Hacking
-
----
-
-## 🔒 SudoSecurity — Build. Document. Evolve.
-A clean, professional, long-term knowledge vault for Shohanur's entire cybersecurity journey.
+A clean, professional, long-term knowledge vault for my entire cybersecurity journey.
+#Shohanur
