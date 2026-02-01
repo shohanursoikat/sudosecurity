@@ -1,0 +1,17 @@
+{
+    "jdk.jdkhome": "E:\\Java",
+    "jdk.telemetry.enabled": true,
+    "jdk.format.settingsPath": "E:\\Java\\Export",
+    "jdk.runConfig.env": "E:\\Java\\bin",
+    "jdk.runConfig.vmOptions": "E:\\Java\\bin",
+    "jdk.test.editor.enableShortcuts": true,
+
+    "java.jdt.ls.java.home": "E:\\Java",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "E:\\Java",
+            "default": true
+        }
+    ]
+}
