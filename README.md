@@ -1,5 +1,4 @@
-# SudoSecurity
-What's up boys? I am Shohanur; the guy behind Sudo Security. In this project you will find the overview of my CSE & Cyber Security journey. I made this project to collect &  store all that I have got in that journey. This repo is updating continously as I am learning new things. I like to share my knowledge with the interested one. All Hackers are not a bad guy.
+In this project you will find an overview of my CSE & Cyber Security journey. I made this project to collect &  store all that I have got in that journey. This repo is updating continously as I am learning new things. I like to share my knowledge with the interested. 
 
 ##  Contents:
 SudoSecurity is my long-term digital vault for:
